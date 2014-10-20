@@ -10,11 +10,6 @@ highlighter: pygments
 layout: default
 title: Leyton's corner of the internet
 
-# Configure sitemap
-sitemap:
-  exclude:
-    - "404.html"
-
 # Plugins
 gems:
   - jekyll-redirect-from
