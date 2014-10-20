@@ -1,0 +1,16 @@
+# Set the permalink structure for blog posts.
+#permalink: /blog/:categories/:title
+
+# Basic website configuration.
+url: https://l8n.eu
+markdown: kramdown
+highlighter: pygments
+
+# Set the defaults for posts and pages.
+layout: default
+title: Leyton's corner of the internet
+
+# Plugins
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
