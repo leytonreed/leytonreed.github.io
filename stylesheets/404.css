@@ -6,7 +6,6 @@ html {
 }
 
 body {
-	cursor: crosshair;
 	background: #093e9e no-repeat center center fixed; /* Old browsers */
 	background: -moz-radial-gradient(center, ellipse cover,  #093e9e 26%, #072966 100%); /* FF3.6+ */
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(26%,#093e9e), color-stop(100%,#072966)); /* Chrome,Safari4+ */
@@ -17,16 +16,16 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#093e9e', endColorstr='#072966',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
 	width: 100%;
 	height: 100%;
-  padding: none;
-  margin: none;
-  overflow: hidden;
+	padding: none;
+	margin: none;
+	overflow: hidden;
 	font-family: Courier, Courier New, sans-serif;
-  padding: none;
-  margin: none;
+	padding: none;
+	margin: none;
 }
 
 #title {
-  background: #d2d2d2;
+	background: #d2d2d2;
 	padding: 5px;
 	color: #093e9e;
 	width: 100px;
@@ -45,7 +44,7 @@ body {
 #footer {
 	color: #d2d2d2;
 	max-width: 750px;
-  width: 90%;
+	width: 90%;
 	margin: auto;
 	font-size: 10px;
 	opacity: 0.2;
@@ -54,23 +53,23 @@ body {
 
 
 @-webkit-keyframes blink {  
-  from { opacity: 1.0; }
-  to { opacity: 0.0; }
+	from { opacity: 1.0; }
+	to { opacity: 0.0; }
 }
 
 blink {
-  -webkit-animation-name: blink;  
-  -webkit-animation-iteration-count: infinite;  
-  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
-  -webkit-animation-duration: 1s; 
+	-webkit-animation-name: blink;  
+	-webkit-animation-iteration-count: infinite;  
+	-webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+	-webkit-animation-duration: 1s; 
 }
 
 #parent {
 	display: table; 
 	height: 100%; 
 	width: 100%;
-  padding: none;
-  margin: none;
+	padding: none;
+	margin: none;
 }
 
 #child {
@@ -79,7 +78,7 @@ blink {
 	height: 100%; 
 	width: 100%;
 	padding: none;
-  margin: none;
+	margin: none;
 }
 
 a {
