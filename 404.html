@@ -15,7 +15,15 @@
             <script language="javascript">
               document.write(location.href);
             </script>
-          on Oct-20-2014, 17:03:10 using
+          on 
+           <script language="javascript">
+            var date = new Date();
+            var n = date.toDateString();
+            var time = date.toLocaleTimeString();
+            
+            document.write(n+", "+time);
+           </script>
+          using
             <script language="javascript">
               document.write(navigator.userAgent);
             </script>
