@@ -16,5 +16,5 @@ gems:
   - jekyll-sitemap
 
 sitemap:
-  exlude:
+  exclude:
     - "/404.html"
