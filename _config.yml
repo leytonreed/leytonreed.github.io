@@ -14,3 +14,7 @@ title: Leyton's corner of the internet
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+
+sitemap:
+  exlude:
+    - "/404.html"
